@@ -69,8 +69,8 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Java Training API
+      - layout: left
+        title: Portfolio
         link: github.com/GuillaumeFalourd
         # link_text: Project Website
         # additional_links:
@@ -80,7 +80,7 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          My projects portfolio gathering POCs, automations and various projects.
+          My projects portfolio gathering many POCs, mostly using Java, Golang, Python or Kotlin, as well as automations using ritchiecli.io and various projects such as training APIs for my mentees, Tips and Tricks, Github Actions examples and so on...
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
