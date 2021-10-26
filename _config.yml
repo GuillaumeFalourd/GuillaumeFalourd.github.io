@@ -1,3 +1,114 @@
-title: Guillaume Falourd's homepage
-description: Bookmark this to keep an eye on my future project updates!
-theme: jekyll-theme-minimal
+# Site
+repository: GuillaumeFalourd/guillaumefalourd.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Guillaume Falourds
+title: Senior Software Developer
+email: guillaume.falourd@gmail.com
+website: www.github.com/GuillaumeFalourd/guillaumefalourd.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: GuiFalourd
+github_username:  GuillaumeFalourd
+stackoverflow_username: "GuiFalourd"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: guillaumefalourd
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Guillaume and I'm a french senior software developer living in Brazil. I have experience making softwares using Java, Golang and Python.
+  I am most skilled in: <mark>Microservices</mark> <mark>Github Actions</mark> and <mark>Magic The Gathering</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Java Training API
+        link: github.com/GuillaumeFalourd
+        # link_text: Project Website
+        # additional_links:
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          My projects portfolio gathering POCs, automations and various projects.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Zup Innovation
+        link: zup.com.br/
+        # link_text: zup.com.br
+        sub_title: Software Developer
+        caption: November 2016 - Present
+        quote: >
+          We create products that improve the “developer experience” and generate value for large companies and startups. We are passionate about the challenge of transforming Brazil into a global high-impact technology creator!
+        description: | # this will include new lines to allow paragraphs
+            Every company needs its projects properly implemented and Zup Innovation is no exception. I'm responsible for developing software solutions, leading less senior developers as well as creating and publishing IT contents.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ENSMM (France) - UFU (Brazil)
+        caption: 2009 - 2014
+        sub_title: Mechatronic Engineering
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I performed a Double Degree Program between Brazil and France through a Brafitec scholarship, as a Mechanical (France) and Mechatronic (Brazil) engineer.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I am not afraid to face new challenges, and that is exactly what my job offers me everyday. I have to adapt my mindset to the IT industry and this is something I find very fun and interesting so far.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
