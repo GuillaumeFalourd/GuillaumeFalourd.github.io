@@ -48,8 +48,22 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Guillaume and I'm a french senior software developer living in Brazil. I have experience making softwares using Java, Golang and Python.
-  I am most skilled in: <mark>Microservices</mark> <mark>Github Actions</mark> and <mark>Magic The Gathering</mark>
+    Hello world 🙋🏻‍♂️
+
+    I'm a Software Developer graduated in Mechatronic Engineering.
+
+    I am not afraid to face new challenges, and that is exactly what my job offers me everyday. I have to adapt my mindset to the IT industry and this is something I find very fun and interesting so far.
+
+    ➤ Until now I learned how to:
+    - write modular, maintainable code (experience with Java, Kotlin, Python and Golang),
+    - reason about software design as well as microservices, gRPC and CLI software development.
+    - working using Source Code Management (GitHub), CI & CD (Github Actions), Testing : BDD (Cucumber) & TDD (JUnit), Cloud (AWS).
+    - use and respect methodologies (Scrum & Kanban),
+    - apply the DevOps mindset.
+
+    ➤ Now, I'm learning how to handle people problems and create relevant contents for my peers. I'm also studying and improving my skills with the Python and Golang programming languages.
+
+    ➤ Goal : Turning complexity into simplicity, sharing my knowledge as much as possible and improving my skills to take care of more complex features. 
 
 content:
   - title: Projects # Title for the section
